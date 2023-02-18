@@ -1,28 +1,73 @@
 body {
     background-image: url(../imagens/bg-desktop.svg);
-    background-color: blueviolet;
+    background-color: hsl(257, 40%, 49%);
     background-size: 100% 100%;
 }
 .logo-svg {
-    margin: 5%;
+    margin: auto;
+    padding: 3% 3%;
     display: flex;
 }
 
 .container {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 5%;
+}
+.container-2 {
+    display: flex;
 }
 .pagina-conversa-svg {
-
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.textos {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .texto-titulo {
-
+    font-family: 'Poppins';
+    font-size: 260%;
+    color: white;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: revert;
 }
 .resumo {
-
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    opacity: 0.8;
+    line-height: 1.5;
+    font-size: 105%;
+    margin: 0 0 5% 0;
 }
-.botão-register {
+.botao-registrar {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    background-color: white;
+    width: 40%;
+    height: 12%;
+    color: blueviolet;
+    font-size: large;
+}
+.botao-registrar:hover {
+    background-color: hsl(300, 69%, 71%);
 
 }
 .redes {
+
+}
+.facebook {
+
+}
+.twitter {
+
+}
+.instagram {
 
 }
