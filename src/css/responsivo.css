@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+    body { 
+        background-image: url(../imagens/bg-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    header {
+        margin: 20%;
+    }
+    main div  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 5%;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section .textos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    section  .texto-titulo {
+        font-size: 315%;
+    }
+    section .resumo {
+        font-size: 150%;
+    }
+
+  @media only screen and (min-width: 768px) {
+    body div .logo-svg {
+
+    }
+    main div {
+        margin: 5% 0 5% 5%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    section .container-2 {
+
+    }
+    div img .pagina-conversa-svg {
+
+    }
+    section .textos {
+        margin: 5% 0 5% 5%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    div h1 .texto-titulo {
+
+    }
+    div p .resumo {
+
+    }
+    section button .botao-registrar {
+
+    }
+    fotter nav ul li a {
+
+    }
+  } 
+  
+  @media only screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/bg-desktop.svg);
+ }
+    main div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0 5%;
+    }
+    section .container-2 {
+
+    }
+    div img .pagina-conversa-svg {
+
+    }
+    .textos {
+        main div {
+            margin: 5% 0 5% 5%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        section  .texto-titulo {
+
+        }
+        section .resumo {
+    
+        }
+        section .botao-registrar {
+    
+        }
+  

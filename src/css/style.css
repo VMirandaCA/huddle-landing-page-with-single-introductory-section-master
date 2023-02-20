@@ -1,7 +1,6 @@
 body {
-    background-image: url(../imagens/bg-desktop.svg);
+
     background-color: hsl(257, 40%, 49%);
-    background-size: 100% 100%;
 }
 .logo-svg {
     margin: auto;
@@ -25,10 +24,10 @@ body {
     margin: 5%;
 }
 .textos {
-    margin: 5%;
+    margin: 5% 0 5% 5%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 .texto-titulo {
     font-family: 'Poppins';
@@ -53,21 +52,27 @@ body {
     width: 40%;
     height: 12%;
     color: blueviolet;
+    font-weight: bold;
     font-size: large;
+    border: none;
 }
 .botao-registrar:hover {
     background-color: hsl(300, 69%, 71%);
-
 }
-.redes {
-
+.redes-pai {
+    margin: 0 10% 0;
+    display: flex;
+    filter: brightness(100);
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.redes-filho {
+    filter: brightness(100);
 }
 .facebook {
-
+    filter: invert(1);
 }
-.twitter {
 
-}
-.instagram {
-
+ .facebook, .instargram, .twitter:hover {
+ filter: var( color  hsl(300, 69%, 71%)) ;
 }
