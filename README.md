@@ -13,6 +13,8 @@ _My observations about the project:_
 
 I had a little difficulty working with the images in svg because until then I had only worked with png and pjg, I still didn't quite understand how to adjust the image with my background and adjust the image as the moblie background , but it was good to do the project because we will not always work with the same image format.
 
+link for Page: https://vmirandaca.github.io/huddle-landing-page-with-single-introductory-section-master/
+
 ![desktop-design](https://user-images.githubusercontent.com/121330983/220118264-faf23270-33cb-49aa-bdcf-84f0cd997e93.jpg )
 
  *imagem com hover*
