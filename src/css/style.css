@@ -8,23 +8,10 @@ body {
     display: flex;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 0 5%;
-}
 .container-2 {
     display: flex;
 }
-.pagina-conversa-svg {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5%;
-}
 .textos {
-    margin: 5% 0 5% 5%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
@@ -42,15 +29,12 @@ body {
     color: white;
     opacity: 0.8;
     line-height: 1.5;
-    font-size: 105%;
     margin: 0 0 5% 0;
 }
 .botao-registrar {
     font-family: 'Poppins', sans-serif;
     border-radius: 30px;
     background-color: white;
-    width: 40%;
-    height: 12%;
     color: blueviolet;
     font-weight: bold;
     font-size: large;
@@ -60,7 +44,6 @@ body {
     background-color: hsl(300, 69%, 71%);
 }
 .redes-pai {
-    margin: 0 10% 0;
     display: flex;
     filter: brightness(100);
     flex-wrap: wrap;
@@ -76,3 +59,4 @@ body {
  .facebook, .instargram, .twitter:hover {
  filter: var( color  hsl(300, 69%, 71%)) ;
 }
+
