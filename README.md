@@ -2,11 +2,14 @@
 
 The objective of the project was to create a message home page with the logo, and a brief summary of the page. the objectives were:
 
-*Create the register button and make it change color when hovering the mouse; put social networks at the bottom of the page; 
-*Place the huddle logo in the upper left corner; 
+*Create the register button and make it change color when hovering the mouse; 
+*Put social networks at the bottom of the page; 
+
+*Place the huddle logo in the upper left corner;
+
 *Make the page responsive for 1440px and 375px screens.
 
-_My observations about the project:
+_My observations about the project:_
 
 I had a little difficulty working with the images in svg because until then I had only worked with png and pjg, I still didn't quite understand how to adjust the image with my background and adjust the image as the moblie background , but it was good to do the project because we will not always work with the same image format.
 
